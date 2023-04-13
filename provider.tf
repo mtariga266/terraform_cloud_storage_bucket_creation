@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   project     = "my-second-project-381922"
-  region      = "northamerica-northeast1"
+  region      = "multi-region"
 }
 
 
