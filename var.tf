@@ -7,14 +7,14 @@ variable "bucket_name" {
   description = "A list of unique names for the GCP storage buckets."
   type        = list(string)
   default     = [
-    "mysecond_testing2s",
-    "mybuckettesting22a",
-    "montrealcollege_demo11",
-    "travel_bucket123as"
+    "mysecond_testing20s",
+    "mybuckettesting22s",
+    "montrealcollege_demo22",
+    "travel_bucket456as"
 
   ]
 }
 variable "bucket_location" {
   description = "The location of the GCP storage buckets."
-  default     = "northamerica-northeast1"
+  default     = "multi-region"
 }
